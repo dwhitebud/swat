@@ -1,0 +1,48 @@
+{
+  "name": "tech-consulting-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Technology Consulting Business Website",
+  "author": "Your Name",
+  "keywords": [
+    "gatsby",
+    "consulting",
+    "business"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.2.0",
+    "dotenv": "^16.4.7",
+    "gatsby": "^5.12.12",
+    "gatsby-plugin-image": "^3.12.3",
+    "gatsby-plugin-sharp": "^5.12.3",
+    "gatsby-source-contentful": "^8.12.4",
+    "gatsby-source-filesystem": "^5.12.1",
+    "gatsby-transformer-sharp": "^5.12.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@types/node": "^20.10.4",
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.17",
+    "autoprefixer": "^10.4.16",
+    "gatsby-plugin-postcss": "^6.12.0",
+    "postcss": "^8.4.32",
+    "postcss-import": "^16.1.0",
+    "postcss-preset-env": "^10.1.2",
+    "tailwindcss": "^3.3.6",
+    "typescript": "^5.3.3"
+  },
+  "main": "tailwind.config.js",
+  "license": "ISC"
+}
